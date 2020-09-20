@@ -32,6 +32,15 @@ a {
 	grid-gap: 10px;
 
 }
+@media screen and (max-width: 600px) {
+	.box {
+		grid-template-columns: repeat(2, max-content);
+	}
+}
+
+
+
+
 .test2 {
 	height: 50px;
 	width: 100px;	
@@ -107,6 +116,7 @@ h1 {
     background: #222222;
 
 }
+
 
 #content {
     width: calc(100% - 40px);
@@ -267,5 +277,16 @@ header #con #zp_logo span:nth-child(2):before {
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+	#opisanie {
+		display: none;
+	}
+    #zp {
+        width: 64px;
+        
     }
 }
