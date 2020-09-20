@@ -8,18 +8,11 @@
 	font-family: Arial;
 }
 
+
 body {
 	background-image: url(img/5.jpg);
 }
-a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 20px;
-	text-transform: uppercase;
-	
 
-
-}
 .box {
 	height: 100px;
 	width: max-content;
@@ -216,6 +209,27 @@ h1 {
     font-size: 16px;
     color: #fff;
 }
+#deko #zp_deko {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    margin: auto ;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: 24px;
+    grid-gap: 8px;  /*расстояние между блок*/
+    transform: translate(-100%, 0%);
+    background-color: #8d8d94;
+    opacity: 0.5;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+
 
 header {
 	width: 100%;
@@ -271,6 +285,47 @@ header #con #zp_logo span:nth-child(2):before {
     margin: 10px 0px;
 }
 
+header ul{
+    width: max-content;
+    height: 24px;
+    position: absolute;
+    margin: auto 0;
+    left: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-template-rows: 24px;
+    grid-gap: 8px;  /*расстояние между блок*/
+    transform: translate(-100%, 0%);
+
+
+
+
+}
+header ul li{
+    text-decoration: none;
+    list-style: none;
+
+
+
+}
+header ul li a{
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center; 
+    color: #fff;
+    padding: 0px 8px;
+    text-decoration: none;
+
+
+
+}
+
+header ul li:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+
 @keyframes test {
     from {
         transform: rotate(0deg);
@@ -287,6 +342,8 @@ header #con #zp_logo span:nth-child(2):before {
 	}
     #zp {
         width: 64px;
-        
+
     }
 }
+
+
